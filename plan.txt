@@ -1,0 +1,8 @@
+use pdfparse to build dictionary of number sequence/word pairings.
+
+generate 6 digit number 
+
+return value from dictionary
+
+repeat 7 times to return complete passphrase
+
