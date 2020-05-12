@@ -11,11 +11,8 @@ def get_numbers():
     return numbers
 
 
-def get_words(nums, diceware):
-    words = []
-    for k in nums:
-        if k in diceware:
-            words.append(diceware[k])
+def get_words(nums, word_list):
+    words = [word_list.get(number) for number in nums]
     return ' '.join(words)
 
 
