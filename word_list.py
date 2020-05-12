@@ -1,4 +1,4 @@
-nosymbols = {
+word_list = {
     11111:"abacus",
     11112:"abdomen",
     11113:"abdominal",

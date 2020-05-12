@@ -1,10 +1,11 @@
 from random import SystemRandom
-from nosymbols import nosymbols
+from word_list import word_list
+
 
 def get_numbers():
     numbers = []
-    for i in range(7):
-        ints = [str(SystemRandom().randint(1,6)) for x in range(5)]
+    for _ in range(7):
+        ints = [str(SystemRandom().randint(1, 6)) for x in range(5)]
         number = ''.join(ints)
         numbers.append(int(number))
     return numbers
@@ -20,10 +21,8 @@ def get_words(nums, diceware):
 
 def run():
 
-    print(get_words(get_numbers(), nosymbols))
+    print(get_words(get_numbers(), word_list))
 
 
 if __name__ == '__main__':
     run()
-
-
