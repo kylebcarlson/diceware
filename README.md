@@ -1,4 +1,4 @@
-# Diceware Passphrase Generator
+## Diceware Passphrase Generator
 
 Creates strong, memorable passphrases using Python's `SystemRandom` and a word list.
 
